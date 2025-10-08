@@ -1,0 +1,28 @@
+# Git version control history
+.git
+
+# Local environment variables (use Railway's variable manager instead)
+.env
+
+# IDE configuration folders
+.vscode/
+.idea/
+
+# Python caches and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Test and utility scripts that are not needed in production
+test_*.py
+debug_*.py
+verify_*.py
+create_*.py
+check_*.py
+migrate_*.py
+
+# Other development files
+*.log
+*.sqlite
+*.db
