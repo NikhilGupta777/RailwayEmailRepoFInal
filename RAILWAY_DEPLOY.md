@@ -34,13 +34,13 @@ In Railway dashboard:
 ```bash
 # Required variables
 railway variables set DATABASE_URL="your_postgresql_url_from_railway"
-railway variables set SENDGRID_API_KEY="SG.your_sendgrid_api_key_here"
-railway variables set JWT_SECRET="7a6cc032b343caca537009b0af137e4dc295531f027b02c86a16b806f0e144d9"
+railway variables set SENDGRID_API_KEY="your_sendgrid_api_key_here"
+railway variables set JWT_SECRET="your_secure_jwt_secret_here"
 
 # Optional variables (already configured)
-railway variables set GOOGLE_CLIENT_ID="1088677655752-3q53kqi8iqmoflbrpt84ngm9hfbqt266.apps.googleusercontent.com"
-railway variables set GOOGLE_CLIENT_SECRET="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"
-railway variables set PERPLEXITY_API_KEY="pplx-your_perplexity_api_key_here"
+railway variables set GOOGLE_CLIENT_ID="your_google_client_id_here"
+railway variables set GOOGLE_CLIENT_SECRET="your_google_client_secret_here"
+railway variables set PERPLEXITY_API_KEY="your_perplexity_api_key_here"
 ```
 
 ### 5. Deploy
